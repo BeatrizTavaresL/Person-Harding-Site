@@ -1,37 +1,33 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pearson Hardman</title>
-
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-
-    <!-- Google Fontes -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-
     <!-- Bootstrap Icons -->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
     />
-
     <!-- Estilos -->
     <link rel="stylesheet" href="css/styles.css" />
+    <!-- Scripts -->
+    <script src="js/scripts.js" defer></script>
   </head>
-
   <body>
-
     <!-- Cabeçalho e Banner -->
     <header id="header">
       <div id="inner-header">
         <h2 id="brand">Pearson Hardman</h2>
-
         <nav id="navbar">
           <a href="#header">Início</a>
           <a href="#expertise-areas">Serviços</a>
@@ -39,8 +35,17 @@
           <a href="#team">Time</a>
           <a href="#contact">Contato</a>
         </nav>
+        <!-- Menu Mobile -->
+        <i class="bi bi-list" id="menu"></i>
+        <nav id="mobile-navbar">
+          <i class="bi bi-x-lg" id="close-menu"></i>
+          <a href="#header">Início</a>
+          <a href="#expertise-areas">Serviços</a>
+          <a href="#about">Sobre</a>
+          <a href="#team">Time</a>
+          <a href="#contact">Contato</a>
+        </nav>
       </div>
-
       <div class="banner active">
         <span class="square"></span>
         <h2>Melhores experts em direito do país</h2>
@@ -49,26 +54,37 @@
           conheça nosso time
         </p>
       </div>
-
+      <div class="banner">
+        <span class="square"></span>
+        <h2>Conheça o nosso time</h2>
+        <p>
+          Veja as especialidades dos nossos advogados, e entenda como eles podem
+          lhe ajudar
+        </p>
+      </div>
+      <div class="banner">
+        <span class="square"></span>
+        <h2>Os nossos resultados</h2>
+        <p>
+          Confira as nossas métricas e conheça os resultados que já obtivemos
+        </p>
+      </div>
       <div class="dots">
         <div class="dot active"></div>
         <div class="dot"></div>
         <div class="dot"></div>
       </div>
     </header>
-
-    <!-- Áreas de Atuação -->
+    <!-- Áreas de atuação -->
     <main id="expertise-areas" class="text-image-section">
-
       <div id="expertise-information" class="text-container">
-        <p class="section-subtitle">Áreas de Atuação</p>
+        <p class="section-subtitle">Áreas de atuação</p>
         <h3 class="section-title">
-          Nossos especialistas podem ajudar você em Direito Civil, Ambiental e
+          Nossos especialistas podem ajudar você em Direito Civil, Ambiental,
           Empresarial.
         </h3>
-        <a href="#" class="btn">Saiba mais</a>
+        <a href="#" class="btn">Saiba Mais</a>
       </div>
-
       <div id="expertise-image-container" class="image-container">
         <i class="bi bi-people"></i>
         <img
@@ -76,7 +92,6 @@
           alt="Advogados da Pearson Hardman"
         />
       </div>
-
       <div id="other-services">
         <div class="service">
           <img src="img/bank.jpg" alt="Banco" />
@@ -91,7 +106,6 @@
             </p>
           </div>
         </div>
-
         <div class="service">
           <img src="img/construction.jpg" alt="Construção" />
           <i class="bi bi-bricks"></i>
@@ -105,73 +119,66 @@
             </p>
           </div>
         </div>
-
         <div class="service">
           <img src="img/company.jpg" alt="Empresa" />
           <i class="bi bi-building"></i>
           <div class="service-info">
-            <h4>Empresas e Funcionários</h4>
+            <h4>Empresas e funcionários</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Veritatis, numquam accusantium! Ex dolores, autem itaque adipisci,
               facilis quam eligendi consequuntur reprehenderit quas aliquid
-              corrupti quibusdam voluptates. Repellendus suscipit quo veniam?.
+              corrupti quibusdam voluptates. Repellendus suscipit quo veniam?
             </p>
           </div>
         </div>
       </div>
     </main>
-
     <!-- Sobre nós -->
     <section id="about">
       <div id="about-text">
         <p class="section-subtitle">Sobre nós</p>
         <h3 class="section-title">
           Uma empresa que tem o foco no cliente, aconselhando da melhor forma e
-          conseguindo os melhores resultados.
+          conseguindo os melhores resultados
         </h3>
-
         <div class="about-description">
           <i class="bi bi-briefcase"></i>
           <div>
             <h4>Advogados atualizados</h4>
             <p>
-              Nós promovemos treinamentos mensais a todos os nossos colaboradores
+              Nós promovemos treinamentos mensais a todos os nossos
+              colaboradores
             </p>
           </div>
         </div>
-
         <div class="about-description">
           <i class="bi bi-book"></i>
           <div>
             <h4>Domínio das leis</h4>
             <p>
-              Nossos colaboradores são especializados em várias áreas do Direito,
-              dominando as principais leis em suas especialidades
+              Nossos colaboradores são especializados em várias áreas do
+              Direito, dominando as principais leis em suas especialidades
             </p>
           </div>
         </div>
       </div>
-
       <div id="about-data">
         <div class="data">
           <i class="bi bi-person"></i>
           <p class="number">50</p>
           <p class="text">Advogados</p>
         </div>
-
         <div class="data">
           <i class="bi bi-check-all"></i>
           <p class="number">789</p>
           <p class="text">Casos resolvidos</p>
         </div>
-
         <div class="data">
           <i class="bi bi-building"></i>
           <p class="number">40</p>
           <p class="text">Clientes</p>
         </div>
-
         <div class="data">
           <i class="bi bi-trophy"></i>
           <p class="number">7</p>
@@ -179,41 +186,37 @@
         </div>
       </div>
     </section>
-    
     <!-- Depoimentos -->
     <section id="testimonials" class="text-image-section">
-      <div id="testimonials-information" class="text-container">
-          <p class="section-subtitle">Depoimentos de Clientes</p>
-          <h3 class="section-title">
-              A Person Hardman resolveu meu caso de forma rápida e eficiente, recomendo a todos.
-          </h3>
-
-          <div class="author">
-              <div class="author-info">
-                  <p class="author-name">Jhon Doe</p>
-                  <p class="author-job">CEO da Empresa X</p>
-              </div>
-              <img src="img/author_1.jpg" alt="Jhon Doe" />       
+      <div id="testimonial-information" class="text-container">
+        <p class="section-subtitle">Depoimentos de clientes</p>
+        <h3 class="section-title">
+          A Pearson Hardman resolveu meu caso muito rápido, recomendo a todos.
+        </h3>
+        <div class="author">
+          <div class="author-info">
+            <p class="author-name">Jhon Doe</p>
+            <p class="author-job">CEO da Empresa X</p>
           </div>
-
-          <h3 class="section-title">
-            O melhor escritório de advocacia que já contratei, conseguimos resolver um caso que durava décadas.
-          </h3>
-
-          <div class="author">
-              <div class="author-info">
-                  <p class="author-name">Paul Clinton</p>
-                  <p class="author-job">CEO da Empresa X</p>
-              </div>
-              <img src="img/author_2.jpg" alt="Paul Clinton" />       
+          <img src="img/author_1.jpg" alt="Jhon Doe" />
+        </div>
+        <h3 class="section-title">
+          O melhor escritório que eu já contratei, conseguimos resolver um caso
+          que durava décadas.
+        </h3>
+        <div class="author">
+          <div class="author-info">
+            <p class="author-name">Paul Clinton</p>
+            <p class="author-job">Gerente de Projetos</p>
           </div>
+          <img src="img/author_2.jpg" alt="Paul Clinton" />
+        </div>
       </div>
       <div id="testimonial-image-container" class="image-container">
-          <i class="bi bi-quote"></i>
-          <img src="img/court.jpg" alt="Advogado em um tribunal"/>
+        <i class="bi bi-quote"></i>
+        <img src="img/court.jpg" alt="Advogado em um tribunal" />
       </div>
     </section>
-
     <!-- Colaboradores -->
     <section id="team">
       <span class="square"></span>
@@ -244,7 +247,6 @@
         </div>
       </div>
     </section>
-
     <!-- Contato -->
     <section id="contact" class="text-image-section">
       <div id="contact-image-container" class="image-container">
@@ -268,7 +270,6 @@
         </form>
       </div>
     </section>
-
     <!-- Rodapé -->
     <footer id="footer">
       <div class="contact-info">
@@ -318,6 +319,5 @@
         </p>
       </div>
     </footer>
-
   </body>
 </html>
