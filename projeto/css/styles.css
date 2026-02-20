@@ -1,4 +1,4 @@
-/* Geral */
+/* General */
 :root {
   --main-color: #d92123;
   --primary-text-color: #fff;
@@ -34,7 +34,7 @@ i {
   padding: 2rem;
 }
 
-/* Cabeçalho e banner */
+/* Header and Banner */
 #header {
   min-height: 90vh;
   background-image: url("../img/main_banner4.png");
@@ -120,7 +120,7 @@ i {
   background-color: var(--main-color);
 }
 
-/* Áreas de atuação */
+/* Areas of Expertise */
 .text-image-section {
   display: flex;
   flex-wrap: wrap;
@@ -200,7 +200,7 @@ i {
   text-transform: uppercase;
 }
 
-/* Sobre nós */
+/* About Us */
 #about {
   display: flex;
   flex-wrap: wrap;
@@ -284,7 +284,7 @@ i {
   text-transform: uppercase;
 }
 
-/* Depoimentos */
+/* Testimonials */
 #testimonials {
   display: flex;
   align-items: center;
@@ -318,7 +318,7 @@ i {
   height: 100px;
 }
 
-/* Colaboradores */
+/* Team */
 #team {
   position: relative;
   margin-bottom: 2rem;
@@ -361,7 +361,7 @@ i {
   margin: 0.5rem 0;
 }
 
-/* Contato */
+/* Contact */
 #contact {
   background-color: var(--main-color);
   gap: 0;
@@ -417,7 +417,7 @@ i {
   color: var(--main-color);
 }
 
-/* Rodapé */
+/* Footer */
 #footer {
   color: var(--primary-text-color);
   background-color: var(--secondary-bg-color);

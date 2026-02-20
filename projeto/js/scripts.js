@@ -1,4 +1,4 @@
-// Seleção de elementos
+// Element Selection
 const menuBtn = document.querySelector("#menu");
 const closeMenuBtn = document.querySelector("#close-menu");
 const menu = document.querySelector("#mobile-navbar");
@@ -11,7 +11,7 @@ const slides = document.querySelectorAll(".banner");
 const dots = document.querySelectorAll(".dot");
 let slideIndex = 0;
 
-// Funções
+// Functions
 function smoothScroll(e) {
   e.preventDefault();
 
@@ -48,7 +48,7 @@ function showSlides() {
   setTimeout(showSlides, 3000);
 }
 
-// Eventos
+// Events
 [menuBtn, closeMenuBtn].forEach((btn) => {
   btn.addEventListener("click", (e) => {
     menu.classList.toggle("menu-active");
@@ -59,5 +59,5 @@ allLinks.forEach((link) => {
   link.addEventListener("click", smoothScroll);
 });
 
-// Inicialização
+// Initialization
 showSlides();
